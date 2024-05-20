@@ -1,0 +1,181 @@
+/* .chat-gpt{
+	max-width: 70%;
+	font-size:50px;
+	border-radius:12px;
+	color:rgb(173, 163, 159);
+	text-shadow: 2px 2px red;
+	transition:all 0.5s ease-in;
+	box-shadow: 5px 5px 2px 2px rgb(175, 155, 27)
+} */
+
+/* 
+:root{
+	--first-color:#000;
+	--second-color:#fff;
+}
+
+html{
+	transition:all 0.5s ease-in;
+}
+
+html.dark{
+	--first-color:#fff;
+	--second-color:#333;
+}
+
+html.dark{
+	background-color:#111;
+	color:var(--first-color);
+}
+
+.toggle{
+	cursor:pointer;
+	background-color:var(--first-color);
+	color:var(--second-color);
+	border-radius:5px;
+	position:absolute;
+	top:50px;
+	padding:7px;
+
+}
+
+.toggle:focus{
+	outline:none;
+}
+
+.tog-pos{
+	position:absolute;
+	right:30px;
+}
+ */
+ /* :global {
+	--main-color: #000;
+	--accent-color: #fff;
+}
+
+html {
+	transition: all 0.5s ease-in;
+}
+
+html.dark {
+	--main-color: #fff;
+	--accent-color: #333;
+}
+
+html.dark {
+	background-color: #111;
+	color: var(--main-color);
+}
+
+.toggle {
+	cursor: pointer;
+	background-color: var(--main-color);
+	color: var(--accent-color);
+	border-radius: 5px;
+	position: absolute;
+	top: 50px;
+	padding: 7px;
+}
+
+.toggle:focus {
+	outline: none;
+}
+
+.tog-position {
+	position: absolute;
+	right: 30px;
+} */
+
+.primary-body-color {
+	background-color: rgb(233, 212, 212);
+}
+
+.secondary-body-color {
+	background-color: rgb(126, 119, 119)
+}
+
+
+
+
+.chat-gpt {
+	max-width: 50%;
+	width: 100%; /* Ensure it adjusts to the parent container's width */
+	font-size: 5vw; /* Use viewport width to make the font size responsive */
+	border-radius: 12px;
+	color: rgb(173, 163, 159);
+	text-shadow: 2px 2px red;
+	transition: all 0.5s ease-in;
+	box-shadow: 5px 5px 2px 2px rgb(175, 155, 27);
+	margin: 0 auto; /* Center the box horizontally */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+	.header-box {
+			max-width: 90%;
+			font-size: 6vw; /* Slightly larger font size for smaller screens */
+			box-shadow: 4px 4px 2px 2px rgb(175, 155, 27); /* Adjust box-shadow for smaller screens */
+	}
+}
+
+/* Adjustments for very small screens */
+@media (max-width: 480px) {
+	.header-box {
+			max-width: 100%;
+			font-size: 8vw; /* Even larger font size for very small screens */
+			box-shadow: 3px 3px 2px 2px rgb(175, 155, 27); /* Further adjust box-shadow for very small screens */
+	}
+}
+
+
+.container > .footer {
+	bottom: 0;
+	position: fixed;
+	margin-bottom: 2rem;
+}
+
+
+
+
+
+.chatGPT{
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	font-size:50px;
+	 
+
+}
+
+.chatgpt-des{
+	border:none;
+	border-radius:12px;
+	/* background-color:rgb(205, 194, 235); */
+	color:rgb(173, 163, 159);
+	text-shadow: 2px 2px red;
+	transition:all 0.5s ease-in;
+	box-shadow:10px 10px 5px rgb(228, 162, 21)
+}
+
+
+ 
+
+.textarea
+	{
+	background-color:lightgreen;
+	display:flex;
+	justify-content:left;
+	align-items:left;
+	border:2px solid black;
+	border-radius:13px;
+	overflow-y: hidden;
+	font-size:25px;
+	text-align:left;
+	overflow:hidden;
+	max-height:auto;
+}
+
+.btn-position{
+	background-color:red;
+	 
+}
